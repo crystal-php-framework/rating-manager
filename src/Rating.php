@@ -52,5 +52,6 @@ class Rating implements RatingInterface
             throw new Exception\InvalidOperationException('The rating passed is not valid.');
         }
         $this->rating = $this->convert($rating, $returnType);
+        return $this;
     }
 }
