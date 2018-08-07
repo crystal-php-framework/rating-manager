@@ -12,6 +12,6 @@ namespace Crystal\Chess\Exception;
 /**
  * If the requested operation is invalid.
  */
-class InvalidOperationException extends RuntimeException implements ExceptionInterface
+class InvalidOperationException extends RuntimeException
 {
 }
