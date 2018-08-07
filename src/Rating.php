@@ -9,6 +9,10 @@ declare(strict_types=1);
 
 namespace Crystal\Chess;
 
+use function is_null;
+
+use const null;
+
 /**
  * Represents a single rating.
  */
