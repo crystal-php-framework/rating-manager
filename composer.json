@@ -1,0 +1,25 @@
+{
+    "name": "crystal/rating-manager",
+    "description": "The crystal way a rating should be adjusted based on if a player wins or loses.",
+    "type": "library",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Nicholas E.",
+            "email": "isupozoy@gmail.com",
+            "homepage": "https://github.com/isupozoy",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5|^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crystal\\Rating\\": "./src"
+        }
+    }
+}
