@@ -25,11 +25,12 @@ class Rating implements RatingInterface
     /**
      * Construct a new rating declaration.
      *
-     * @param mixed $rating The rating to use.
+     * @param mixed  $rating     The rating to use.
+     * @param string $returnType The rating return data type rquested.
      *
      * @return void Returns nothing.
      */
-    public function __construct($rating = null, $returnType = 'int')
+    public function __construct($rating = null, string $returnType = 'int')
     {
         if (!is_null($rating))
         {
@@ -45,7 +46,7 @@ class Rating implements RatingInterface
      *
      * @return RatingInterface Returns the rating instance.
      */
-    public function set($rating, $returnType = 'int'): RatingInterface
+    public function set($rating, string $returnType = 'int'): RatingInterface
     {
         if (!$this->isRating($rating))
         {
